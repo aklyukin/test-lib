@@ -1,5 +1,7 @@
 #!/usr/bin/env groovy
 
 def call() {
-  // Do something here...
+  sh 'echo asdsdadsddasaadsadssd'
+  sh 'pwd'
+  sh 'echo $WORKSPACE'
 }
